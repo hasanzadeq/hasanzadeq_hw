@@ -38,8 +38,10 @@ public class shootingSquare {
         {
             a= (int)(Math.random()*5)+1;
             b= (int)(Math.random()*5)+1;
-            System.out.print("Please enter x: "); x=sc.nextInt();
-            System.out.print("Please enter y: ");y=sc.nextInt();
+            System.out.print("Pleae enter x: ");x=sc.nextInt();
+            System.out.print("Please enter y: "); y=sc.nextInt();
+
+            System.out.println();
             if(x==a && y==b)
             {
                 arr[a][b]="X";
@@ -50,7 +52,7 @@ public class shootingSquare {
             }
             else
             {
-                arr[a][b]="*";
+                arr[y][x]="*";
                 Matrix();
 
             }

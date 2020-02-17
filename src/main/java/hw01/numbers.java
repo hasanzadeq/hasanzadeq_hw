@@ -1,6 +1,4 @@
 package hw01;
-import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,7 +11,7 @@ public class numbers {
         System.out.print("Please enter your name: ");
         String name= sc.next();
         int ch=0;
-        int a=rand.nextInt(60);
+        int a=rand.nextInt(100);
         int arr []=new int[100];
         int i=0;
 
