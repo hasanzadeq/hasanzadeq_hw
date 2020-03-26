@@ -10,7 +10,7 @@ public class shootingSquare {
 
         int a=0;
         int b=0;
-        int x=0;
+        int x;
         int y=0;
         for (int i = 0; i <6 ; i++) {
 
@@ -33,11 +33,11 @@ public class shootingSquare {
         System.out.println("All set. Get ready");
         Matrix();
 
-
+        a= (int)(Math.random()*5)+1;
+        b= (int)(Math.random()*5)+1;
         while (true)
         {
-            a= (int)(Math.random()*5)+1;
-            b= (int)(Math.random()*5)+1;
+
             System.out.print("Pleae enter x: ");x=sc.nextInt();
             System.out.print("Please enter y: "); y=sc.nextInt();
 
